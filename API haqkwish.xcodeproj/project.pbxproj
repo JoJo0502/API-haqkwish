@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF3630E221628B6C00BDC7EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3630E121628B6C00BDC7EC /* AppDelegate.swift */; };
+		EF3630E421628B6C00BDC7EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3630E321628B6C00BDC7EC /* ViewController.swift */; };
+		EF3630E721628B6C00BDC7EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3630E521628B6C00BDC7EC /* Main.storyboard */; };
+		EF3630E921628B6E00BDC7EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3630E821628B6E00BDC7EC /* Assets.xcassets */; };
+		EF3630EC21628B6E00BDC7EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3630EA21628B6E00BDC7EC /* LaunchScreen.storyboard */; };
+		EF3630F721628B6E00BDC7EC /* API_haqkwishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3630F621628B6E00BDC7EC /* API_haqkwishTests.swift */; };
+		EF36310221628B6E00BDC7EC /* API_haqkwishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF36310121628B6E00BDC7EC /* API_haqkwishUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF3630F321628B6E00BDC7EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF3630D621628B6C00BDC7EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF3630DD21628B6C00BDC7EC;
+			remoteInfo = "API haqkwish";
+		};
+		EF3630FE21628B6E00BDC7EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF3630D621628B6C00BDC7EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF3630DD21628B6C00BDC7EC;
+			remoteInfo = "API haqkwish";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF3630DE21628B6C00BDC7EC /* API haqkwish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API haqkwish.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3630E121628B6C00BDC7EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF3630E321628B6C00BDC7EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF3630E621628B6C00BDC7EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF3630E821628B6E00BDC7EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF3630EB21628B6E00BDC7EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF3630ED21628B6E00BDC7EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3630F221628B6E00BDC7EC /* API haqkwishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API haqkwishTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3630F621628B6E00BDC7EC /* API_haqkwishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_haqkwishTests.swift; sourceTree = "<group>"; };
+		EF3630F821628B6E00BDC7EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3630FD21628B6E00BDC7EC /* API haqkwishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API haqkwishUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF36310121628B6E00BDC7EC /* API_haqkwishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_haqkwishUITests.swift; sourceTree = "<group>"; };
+		EF36310321628B6E00BDC7EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF3630DB21628B6C00BDC7EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3630EF21628B6E00BDC7EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3630FA21628B6E00BDC7EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF3630D521628B6C00BDC7EC = {
+			isa = PBXGroup;
+			children = (
+				EF3630E021628B6C00BDC7EC /* API haqkwish */,
+				EF3630F521628B6E00BDC7EC /* API haqkwishTests */,
+				EF36310021628B6E00BDC7EC /* API haqkwishUITests */,
+				EF3630DF21628B6C00BDC7EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF3630DF21628B6C00BDC7EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF3630DE21628B6C00BDC7EC /* API haqkwish.app */,
+				EF3630F221628B6E00BDC7EC /* API haqkwishTests.xctest */,
+				EF3630FD21628B6E00BDC7EC /* API haqkwishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF3630E021628B6C00BDC7EC /* API haqkwish */ = {
+			isa = PBXGroup;
+			children = (
+				EF3630E121628B6C00BDC7EC /* AppDelegate.swift */,
+				EF3630E321628B6C00BDC7EC /* ViewController.swift */,
+				EF3630E521628B6C00BDC7EC /* Main.storyboard */,
+				EF3630E821628B6E00BDC7EC /* Assets.xcassets */,
+				EF3630EA21628B6E00BDC7EC /* LaunchScreen.storyboard */,
+				EF3630ED21628B6E00BDC7EC /* Info.plist */,
+			);
+			path = "API haqkwish";
+			sourceTree = "<group>";
+		};
+		EF3630F521628B6E00BDC7EC /* API haqkwishTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF3630F621628B6E00BDC7EC /* API_haqkwishTests.swift */,
+				EF3630F821628B6E00BDC7EC /* Info.plist */,
+			);
+			path = "API haqkwishTests";
+			sourceTree = "<group>";
+		};
+		EF36310021628B6E00BDC7EC /* API haqkwishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF36310121628B6E00BDC7EC /* API_haqkwishUITests.swift */,
+				EF36310321628B6E00BDC7EC /* Info.plist */,
+			);
+			path = "API haqkwishUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF3630DD21628B6C00BDC7EC /* API haqkwish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF36310621628B6E00BDC7EC /* Build configuration list for PBXNativeTarget "API haqkwish" */;
+			buildPhases = (
+				EF3630DA21628B6C00BDC7EC /* Sources */,
+				EF3630DB21628B6C00BDC7EC /* Frameworks */,
+				EF3630DC21628B6C00BDC7EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "API haqkwish";
+			productName = "API haqkwish";
+			productReference = EF3630DE21628B6C00BDC7EC /* API haqkwish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF3630F121628B6E00BDC7EC /* API haqkwishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF36310921628B6E00BDC7EC /* Build configuration list for PBXNativeTarget "API haqkwishTests" */;
+			buildPhases = (
+				EF3630EE21628B6E00BDC7EC /* Sources */,
+				EF3630EF21628B6E00BDC7EC /* Frameworks */,
+				EF3630F021628B6E00BDC7EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF3630F421628B6E00BDC7EC /* PBXTargetDependency */,
+			);
+			name = "API haqkwishTests";
+			productName = "API haqkwishTests";
+			productReference = EF3630F221628B6E00BDC7EC /* API haqkwishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF3630FC21628B6E00BDC7EC /* API haqkwishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF36310C21628B6E00BDC7EC /* Build configuration list for PBXNativeTarget "API haqkwishUITests" */;
+			buildPhases = (
+				EF3630F921628B6E00BDC7EC /* Sources */,
+				EF3630FA21628B6E00BDC7EC /* Frameworks */,
+				EF3630FB21628B6E00BDC7EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF3630FF21628B6E00BDC7EC /* PBXTargetDependency */,
+			);
+			name = "API haqkwishUITests";
+			productName = "API haqkwishUITests";
+			productReference = EF3630FD21628B6E00BDC7EC /* API haqkwishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF3630D621628B6C00BDC7EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "GARCIA,JG JORGE";
+				TargetAttributes = {
+					EF3630DD21628B6C00BDC7EC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EF3630F121628B6E00BDC7EC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EF3630DD21628B6C00BDC7EC;
+					};
+					EF3630FC21628B6E00BDC7EC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EF3630DD21628B6C00BDC7EC;
+					};
+				};
+			};
+			buildConfigurationList = EF3630D921628B6C00BDC7EC /* Build configuration list for PBXProject "API haqkwish" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF3630D521628B6C00BDC7EC;
+			productRefGroup = EF3630DF21628B6C00BDC7EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF3630DD21628B6C00BDC7EC /* API haqkwish */,
+				EF3630F121628B6E00BDC7EC /* API haqkwishTests */,
+				EF3630FC21628B6E00BDC7EC /* API haqkwishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF3630DC21628B6C00BDC7EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3630EC21628B6E00BDC7EC /* LaunchScreen.storyboard in Resources */,
+				EF3630E921628B6E00BDC7EC /* Assets.xcassets in Resources */,
+				EF3630E721628B6C00BDC7EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3630F021628B6E00BDC7EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3630FB21628B6E00BDC7EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF3630DA21628B6C00BDC7EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3630E421628B6C00BDC7EC /* ViewController.swift in Sources */,
+				EF3630E221628B6C00BDC7EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3630EE21628B6E00BDC7EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3630F721628B6E00BDC7EC /* API_haqkwishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3630F921628B6E00BDC7EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF36310221628B6E00BDC7EC /* API_haqkwishUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF3630F421628B6E00BDC7EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF3630DD21628B6C00BDC7EC /* API haqkwish */;
+			targetProxy = EF3630F321628B6E00BDC7EC /* PBXContainerItemProxy */;
+		};
+		EF3630FF21628B6E00BDC7EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF3630DD21628B6C00BDC7EC /* API haqkwish */;
+			targetProxy = EF3630FE21628B6E00BDC7EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF3630E521628B6C00BDC7EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3630E621628B6C00BDC7EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF3630EA21628B6E00BDC7EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3630EB21628B6E00BDC7EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF36310421628B6E00BDC7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF36310521628B6E00BDC7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF36310721628B6E00BDC7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "API haqkwish/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-16-rlas.org.API-haqkwish";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF36310821628B6E00BDC7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "API haqkwish/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-16-rlas.org.API-haqkwish";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF36310A21628B6E00BDC7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "API haqkwishTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-16-rlas.org.API-haqkwishTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/API haqkwish.app/API haqkwish";
+			};
+			name = Debug;
+		};
+		EF36310B21628B6E00BDC7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "API haqkwishTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-16-rlas.org.API-haqkwishTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/API haqkwish.app/API haqkwish";
+			};
+			name = Release;
+		};
+		EF36310D21628B6E00BDC7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "API haqkwishUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-16-rlas.org.API-haqkwishUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "API haqkwish";
+			};
+			name = Debug;
+		};
+		EF36310E21628B6E00BDC7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "API haqkwishUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-16-rlas.org.API-haqkwishUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "API haqkwish";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF3630D921628B6C00BDC7EC /* Build configuration list for PBXProject "API haqkwish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF36310421628B6E00BDC7EC /* Debug */,
+				EF36310521628B6E00BDC7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF36310621628B6E00BDC7EC /* Build configuration list for PBXNativeTarget "API haqkwish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF36310721628B6E00BDC7EC /* Debug */,
+				EF36310821628B6E00BDC7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF36310921628B6E00BDC7EC /* Build configuration list for PBXNativeTarget "API haqkwishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF36310A21628B6E00BDC7EC /* Debug */,
+				EF36310B21628B6E00BDC7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF36310C21628B6E00BDC7EC /* Build configuration list for PBXNativeTarget "API haqkwishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF36310D21628B6E00BDC7EC /* Debug */,
+				EF36310E21628B6E00BDC7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF3630D621628B6C00BDC7EC /* Project object */;
+}
